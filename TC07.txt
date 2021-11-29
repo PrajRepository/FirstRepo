@@ -1,0 +1,22 @@
+public class Str1 {
+	public static void main(String[] args) {
+		
+	String s="Selenium";
+	System.out.println(s.toUpperCase()); // Convert to upper
+	System.out.println(s.toLowerCase()); //Covert to lowe case
+	System.out.println(s.charAt(7)) ;    //get char at index
+	System.out.println(s.indexOf("e"));	 //Get index of character-> 7
+	System.out.println(s.lastIndexOf("e")); //get idex if char appering twice
+	System.out.println(s.startsWith("s"));  //fale
+	System.out.println(s.contains("eel"));  //false
+	System.out.println(s.startsWith("Se")); //ture
+		
+		
+		System.out.println(s.substring(0,4)); //Sele
+	
+          //Assignment: print in reverse	
+
+	
+		
+		
+	}
